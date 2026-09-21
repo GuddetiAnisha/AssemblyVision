@@ -1,0 +1,36 @@
+{
+  "fps": 20,
+  "frames": 240,
+  "intervals": [
+    {
+      "label": "pick_component",
+      "start_s": 0.0,
+      "end_s": 2.0
+    },
+    {
+      "label": "position_component",
+      "start_s": 2.0,
+      "end_s": 4.0
+    },
+    {
+      "label": "insert_component",
+      "start_s": 4.0,
+      "end_s": 6.0
+    },
+    {
+      "label": "fasten",
+      "start_s": 6.0,
+      "end_s": 8.0
+    },
+    {
+      "label": "inspect",
+      "start_s": 8.0,
+      "end_s": 10.0
+    },
+    {
+      "label": "completed",
+      "start_s": 10.0,
+      "end_s": 12.0
+    }
+  ]
+}

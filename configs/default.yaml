@@ -1,0 +1,16 @@
+video:
+  sample_every: 1
+  max_width: 960
+detector:
+  min_area: 180
+  classes:
+    component: {lower: [95, 100, 60], upper: [135, 255, 255]}
+    socket: {lower: [40, 70, 50], upper: [85, 255, 255]}
+    fastener: {lower: [0, 120, 70], upper: [10, 255, 255]}
+    inspection: {lower: [20, 100, 100], upper: [38, 255, 255]}
+state_engine:
+  dwell_frames: 20
+  missing_tolerance: 4
+  proximity_px: 65
+  motion_threshold_px: 2
+  steps: [pick_component, position_component, insert_component, fasten, inspect, completed]

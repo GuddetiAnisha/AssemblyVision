@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.env
+.DS_Store
+reports/*.json
+reports/*.csv
+data/uploads/
+data/samples/*.mp4
+*.avi

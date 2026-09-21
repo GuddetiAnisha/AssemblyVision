@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "assemblyvision"
+version = "0.1.0"
+description = "Manual assembly activity recognition research prototype"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24", "opencv-python-headless>=4.8", "PyYAML>=6.0"]
+
+[tool.setuptools.packages.find]
+include = ["assemblyvision*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
